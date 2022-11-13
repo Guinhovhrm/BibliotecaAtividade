@@ -15,17 +15,14 @@ public class BibliotecaATT {
         do {
 
             try {
-                System.out.println("Digite o nome do livro: ");
-                String livroMain = sc.next();
-                livros.setNomeDoLivro(livroMain);
+                System.out.println("Digite o nome do livro: ");              
+                livros.setNomeDoLivro(null);
 
-                System.out.println("Digite o nome do autor: ");
-                String autorMain = sc.next();
-                livros.setAutor(autorMain);
+                System.out.println("Digite o nome do autor: ");               
+                livros.setAutor(null);
 
-                System.out.println("Digite o ISSN do livro: (apenas numeros)");
-                int issnMain = sc.nextInt();
-                livros.setIssn(issnMain);
+                System.out.println("Digite o ISSN do livro: (apenas numeros)");                
+                livros.setIssn(0);
 
                 System.out.println(livros.toString());
 

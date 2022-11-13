@@ -22,7 +22,7 @@ public class biblioteca {
     }
 
     public void setNomeDoLivro(String nomeDoLivro) {
-        this.nomeDoLivro = nomeDoLivro;
+        this.nomeDoLivro = sc.next();
     }
 
     public String getAutor() {
@@ -30,7 +30,7 @@ public class biblioteca {
     }
 
     public void setAutor(String autor) {
-        this.autor = autor;
+        this.autor = sc.next();
     }
 
     public int getIssn() {
@@ -38,7 +38,7 @@ public class biblioteca {
     }
 
     public void setIssn(int issn) {
-        this.issn = issn;
+        this.issn = sc.nextInt();
     }
 
        
