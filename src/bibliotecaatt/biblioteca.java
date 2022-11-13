@@ -11,7 +11,7 @@ public class biblioteca {
     private String autor;
     private int issn;
 
-//    public biblioteca() {
+//    public biblioteca(String nomeDoLivro, String autor, int issn) {
 //        this.nomeDoLivro = nomeDoLivro;
 //        this.autor = autor;
 //        this.issn = issn;
@@ -41,13 +41,10 @@ public class biblioteca {
         this.issn = issn;
     }
 
-    
-    
-    
-    
+       
     @Override
     public String toString() {
-        return "O nome do livro é: "+ nomeDoLivro + "\nO Autor é: " + autor + "\nO ISSN é: " + issn;
+        return "O nome do livro é: "+ nomeDoLivro + " & O Autor é: " + autor + " & O ISSN é: " + issn + "\n";
     }
     
     

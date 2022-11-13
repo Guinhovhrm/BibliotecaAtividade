@@ -11,7 +11,7 @@ public class BibliotecaATT {
         ArrayList<biblioteca> ListaDLivros = new ArrayList<>();
         biblioteca livros = new biblioteca();
         String cont;
-
+              
         do {
 
             try {
@@ -38,7 +38,7 @@ public class BibliotecaATT {
             String adicionar = sc.next();
 
             if (adicionar.equals("S")) {
-                ListaDLivros.add(livros);
+                ListaDLivros.add(livros);            
                 System.out.println("Os livros na biblioteca são: " + livros.getNomeDoLivro());
             } else {
                 System.out.println("Livro não adicionado!");
@@ -48,9 +48,9 @@ public class BibliotecaATT {
             cont = sc.next();
 
         } while (cont.equals("S"));
-
+              
         System.out.println(ListaDLivros);
-
+        
     }
 
 }
